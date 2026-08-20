@@ -1,18 +1,94 @@
 export const profile = {
   name: "Valentine Onyenobi",
-  role: "Data Analyst & Business Consultant",
-  tagline: "I turn messy operational data into decisions leaders can act on.",
+  role: "Business Strategist & Data Analyst",
+  disciplines: "Strategy · Data · Business Intelligence · Operations",
+  tagline:
+    "I help organisations understand performance, solve complex business problems and make better decisions — combining strategic thinking with hands-on analytical capability.",
   location: "London, E16 3RJ, UK",
   email: "vnonyenobi@gmail.com",
   phone: "+44 7883 396 725",
   linkedin: "https://www.linkedin.com/in/valentineonyenobi/",
   github: "https://github.com/ValentineOnyenobi",
   summary: [
-    "I'm a data analyst with a consulting spine. Ten-plus years across fintech, professional services and project delivery in the UK, UAE and Nigeria taught me that the hard part of analytics is rarely the model — it's framing the question, cleaning the truth out of the data, and getting a stakeholder to actually change something.",
-    "Day to day I work in SQL, Python, Power BI, Tableau and advanced Excel: building ETL pipelines, normalising data models, writing DAX, and shipping dashboards people open on Monday morning. On the machine learning side I work with regression, classification and clustering — XGBoost, Random Forest, SVC and decision trees, tuned with Grid Search CV.",
-    "I'm also the founder of Kajco Finance Ltd, where I'm designing a retailer credit system built on behavioural scoring — which keeps me honest about the difference between an accurate model and a useful one.",
+    "I am a Business Strategist and Data Analyst working across business strategy, data analytics, business intelligence, operations and financial services. My experience spans the UK, Nigeria and the UAE — whether I'm joining a team, advising on a specific problem, or supporting a project.",
+    "My value is operating across both sides of a business problem: understand the business, work with the data, find the insight, shape the strategy, support execution.",
+    "I don't treat every problem as a data problem, and I don't treat every problem as a strategy problem. I start with the business question, then bring in whatever mix of analysis, process and technology it actually needs.",
   ],
 };
+
+export const results = [
+  {
+    value: "~25%",
+    label: "Increase in office productivity",
+    note: "From digital workflow implementation",
+  },
+  {
+    value: "~15%",
+    label: "Reduction in operating costs",
+    note: "Through procurement & vendor management",
+  },
+  {
+    value: "Interactive BI",
+    label: "Power BI & Tableau dashboards",
+    note: "Sales, supply-chain & market analysis",
+  },
+  {
+    value: "SQL",
+    label: "Large datasets cleaned & structured",
+    note: "Transformed for analysis & reporting",
+  },
+  {
+    value: "ML Portfolio",
+    label: "Predictive & classification projects",
+    note: "XGBoost, Random Forest, Decision Trees, SVC",
+  },
+];
+
+export const regions = [
+  {
+    flag: "\u{1F1EC}\u{1F1E7}",
+    country: "United Kingdom",
+    focus: "Strategy · Data Analytics · Business Intelligence · Consulting",
+  },
+  {
+    flag: "\u{1F1F3}\u{1F1EC}",
+    country: "Nigeria",
+    focus: "Strategy · Consulting · Business Development · Operations · Financial Services",
+  },
+  {
+    flag: "\u{1F1E6}\u{1F1EA}",
+    country: "United Arab Emirates",
+    focus: "Project Management · Operations · Business Administration",
+  },
+];
+
+export const howIWork = [
+  { step: "Understand", body: "the objective, customer, process and business problem" },
+  { step: "Investigate", body: "the relevant data, constraints and underlying drivers" },
+  { step: "Analyse", body: "clean, structure and visualise the evidence" },
+  { step: "Interpret", body: "translate findings into business meaning" },
+  { step: "Recommend", body: "practical, business-aligned recommendations" },
+  { step: "Execute & Measure", body: "support implementation and track outcomes against it" },
+];
+
+export const strengths = [
+  {
+    title: "Strategic + Analytical",
+    body: "Combines strategy and data rather than treating them as separate disciplines.",
+  },
+  {
+    title: "Hands-On",
+    body: "Works directly with data, dashboards and operational processes, not just advisory.",
+  },
+  {
+    title: "Evidence-Based",
+    body: "Recommendations grounded in data and business context.",
+  },
+  {
+    title: "Cross-Functional",
+    body: "Communicates equally well with business stakeholders and technical teams.",
+  },
+];
 
 export const metrics = [
   { value: 11, suffix: "+", label: "Projects shipped", note: "ML, BI & dashboard builds" },
@@ -324,18 +400,38 @@ export const certifications = [
 
 export const services = [
   {
-    title: "Data Analysis & Reporting",
-    body: "SQL pipelines, Python analysis and clean reporting layers that replace spreadsheet archaeology with numbers you can trust.",
-    points: ["ETL / ELT design", "Data cleaning & modelling", "Recurring reporting"],
+    title: "Strategy & Consulting",
+    body: "I evaluate where a business stands, identify opportunities and problems, and build practical strategies for growth and improvement — from business model analysis and market opportunity assessment to operational strategy and performance management.",
+    practice:
+      "Developed growth and operational strategies across SME and property-management environments, including workforce retention, onboarding and training initiatives.",
+    points: ["Business model analysis", "Market opportunity assessment", "Performance management"],
   },
   {
-    title: "BI Dashboard Development",
-    body: "Power BI and Tableau dashboards built around the decisions they support — DAX measures, drill-downs and no vanity charts.",
-    points: ["Power BI & DAX", "Tableau interactivity", "Star-schema modelling"],
+    title: "Data Analytics & Business Intelligence",
+    body: "I turn raw, messy data into evidence and decisions — cleaning, structuring and analysing datasets in SQL and Python, then building the dashboards that make the findings usable.",
+    practice:
+      "Built interactive Power BI dashboards (including a supply-chain dashboard with Gantt charts and heat maps) and Tableau dashboards analysing employment trends, regional distribution and property market data.",
+    points: ["SQL & Python", "Power BI, Tableau, DAX", "Excel & R"],
   },
   {
-    title: "Business & Process Consulting",
-    body: "Operational diagnostics and process redesign backed by data, drawing on a decade of consulting and project delivery.",
-    points: ["Process improvement", "Strategy & growth analysis", "Stakeholder reporting"],
+    title: "Machine Learning & Predictive Analytics",
+    body: "I apply ML to structured business problems — from data preparation through model development, tuning and evaluation.",
+    practice:
+      "Predictive and classification projects spanning marketing analysis, stock-price prediction, financial analysis and classification, including data cleaning, preprocessing and hyperparameter tuning.",
+    points: ["XGBoost & Random Forest", "Decision Trees & SVC", "Hyperparameter tuning"],
+  },
+  {
+    title: "Operations & Delivery",
+    body: "I close the gap between recommendation and results — process improvement, workflow design, project and stakeholder management.",
+    practice:
+      "Implemented digital workflows that lifted office productivity by ~25%, and managed vendor/procurement activity that cut operating costs by ~15%.",
+    points: ["Process improvement", "Workflow design", "Stakeholder management"],
+  },
+  {
+    title: "Financial Services & Fintech",
+    body: "I've applied the same strategy-plus-data approach to financial services problems, including digital lending and credit assessment — thinking through how behavioural data, merchant information and risk assessment can support better credit decisions.",
+    practice:
+      "Understand the commercial objective first, then determine how data and analysis improve the decision.",
+    points: ["Digital lending", "Credit assessment", "Behavioural scoring"],
   },
 ];
