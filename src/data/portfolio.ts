@@ -4,8 +4,8 @@ export const profile = {
   disciplines: "Strategy · Data · Business Intelligence · Operations",
   tagline:
     "I help organisations understand performance, solve complex business problems and make better decisions — combining strategic thinking with hands-on analytical capability.",
-  location: "London, E16 3RJ, UK",
-  email: "vnonyenobi@gmail.com",
+  location: "London, UK",
+  email: "valentine@freetownconsultancy.com",
   phone: "+44 7883 396 725",
   linkedin: "https://www.linkedin.com/in/valentineonyenobi/",
   github: "https://github.com/ValentineOnyenobi",
