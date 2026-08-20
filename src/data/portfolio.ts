@@ -422,14 +422,14 @@ export const services = [
   },
   {
     title: "Operations & Delivery",
-    body: "I close the gap between recommendation and results — process improvement, workflow design, project and stakeholder management.",
+    body: "I close the gap between recommendation and results - process improvement, workflow design, project and stakeholder management.",
     practice:
       "Implemented digital workflows that lifted office productivity by ~25%, and managed vendor/procurement activity that cut operating costs by ~15%.",
     points: ["Process improvement", "Workflow design", "Stakeholder management"],
   },
   {
     title: "Financial Services & Fintech",
-    body: "I've applied the same strategy-plus-data approach to financial services problems, including digital lending and credit assessment — thinking through how behavioural data, merchant information and risk assessment can support better credit decisions.",
+    body: "I've applied the same strategy-plus-data approach to financial services problems, including digital lending and credit assessment - thinking through how behavioural data, merchant information and risk assessment can support better credit decisions.",
     practice:
       "Understand the commercial objective first, then determine how data and analysis improve the decision.",
     points: ["Digital lending", "Credit assessment", "Behavioural scoring"],
