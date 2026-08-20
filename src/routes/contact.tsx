@@ -28,11 +28,9 @@ export const Route = createFileRoute("/contact")({
 
 const projectTypes = ["Full-time role", "Dashboard build", "Data analysis", "Consulting"];
 
-export default function noop() {}
-
 function Contact() {
   const [type, setType] = useState(projectTypes[0]!);
-  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [errors, setErrors] = useState<Record<string, string | undefined>>({});
   const [sent, setSent] = useState(false);
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -43,9 +41,9 @@ function Contact() {
     const message = String(form.get("message") ?? "").trim();
 
     const next: Record<string, string> = {};
-    if (name.length < 2) next.name = "Please enter your name.";
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) next.email = "Enter a valid email address.";
-    if (message.length < 15) next.message = "Give me a little more detail (15+ characters).";
+    if (name.length < 2) next["name"] = "Please enter your name.";
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) next["email"] = "Enter a valid email address.";
+    if (message.length < 15) next["message"] = "Give me a little more detail (15+ characters).";
     setErrors(next);
     if (Object.keys(next).length > 0) return;
 
@@ -77,7 +75,7 @@ function Contact() {
         <Reveal delay={80}>
           <form onSubmit={onSubmit} noValidate className="card-surface p-6 md:p-8">
             <div className="grid gap-5 sm:grid-cols-2">
-              <Field label="Name" error={errors.name}>
+              <Field label="Name" error={errors["name"]}>
                 <input
                   name="name"
                   id="name"
@@ -86,7 +84,7 @@ function Contact() {
                   className="w-full rounded-sm border border-input bg-background px-3.5 py-2.5 text-sm outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-signal"
                 />
               </Field>
-              <Field label="Email" error={errors.email}>
+              <Field label="Email" error={errors["email"]}>
                 <input
                   name="email"
                   id="email"
@@ -120,7 +118,7 @@ function Contact() {
             </fieldset>
 
             <div className="mt-6">
-              <Field label="Message" error={errors.message}>
+              <Field label="Message" error={errors["message"]}>
                 <textarea
                   name="message"
                   id="message"
@@ -219,7 +217,7 @@ function Field({
   children,
 }: {
   label: string;
-  error?: string;
+  error?: string | undefined;
   children: React.ReactNode;
 }) {
   return (
