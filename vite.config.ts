@@ -18,7 +18,7 @@ export default defineConfig({
   tanstackStart: staticExport
     ? {
         // Fully static output — no server runtime.
-        spa: { enabled: true, prerender: { crawlLinks: false } },
+        spa: { enabled: true, prerender: { outputPath: "/_shell.html", crawlLinks: false } },
         prerender: { enabled: true, crawlLinks: true, autoSubfolderIndex: true, retryCount: 1 },
         pages: prerenderPages.map((path) => ({ path, prerender: { enabled: true } })),
       }
