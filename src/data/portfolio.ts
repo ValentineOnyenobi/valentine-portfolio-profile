@@ -401,7 +401,7 @@ export const certifications = [
 export const services = [
   {
     title: "Strategy & Consulting",
-    body: "I evaluate where a business stands, identify opportunities and problems, and build practical strategies for growth and improvement — from business model analysis and market opportunity assessment to operational strategy and performance management.",
+    body: "I evaluate where a business stands, identify opportunities and problems, and build practical strategies for growth and improvement - from business model analysis and market opportunity assessment to operational strategy and performance management.",
     practice:
       "Developed growth and operational strategies across SME and property-management environments, including workforce retention, onboarding and training initiatives.",
     points: ["Business model analysis", "Market opportunity assessment", "Performance management"],
@@ -415,7 +415,7 @@ export const services = [
   },
   {
     title: "Machine Learning & Predictive Analytics",
-    body: "I apply ML to structured business problems — from data preparation through model development, tuning and evaluation.",
+    body: "I apply ML to structured business problems - from data preparation through model development, tuning and evaluation.",
     practice:
       "Predictive and classification projects spanning marketing analysis, stock-price prediction, financial analysis and classification, including data cleaning, preprocessing and hyperparameter tuning.",
     points: ["XGBoost & Random Forest", "Decision Trees & SVC", "Hyperparameter tuning"],

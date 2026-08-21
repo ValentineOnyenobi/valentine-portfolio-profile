@@ -221,7 +221,7 @@ function Home() {
           </div>
           <Reveal delay={200}>
             <p className="mt-8 max-w-3xl text-muted-foreground">
-              Different environments, different business cultures and stakeholder expectations —
+              Different environments, different business cultures and stakeholder expectations -
               with a consistent focus on structured problem-solving and measurable outcomes.
             </p>
           </Reveal>
