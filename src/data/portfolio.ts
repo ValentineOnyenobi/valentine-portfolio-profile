@@ -139,7 +139,7 @@ export const projects: Project[] = [
   },
   {
     slug: "cancer-classification",
-    title: "Cancer Classification — Malignant vs Benign",
+    title: "Cancer Classification - Malignant vs Benign",
     category: "Machine Learning",
     problem:
       "A diagnostic dataset needed a classifier where a false negative carries far more cost than a false positive.",
