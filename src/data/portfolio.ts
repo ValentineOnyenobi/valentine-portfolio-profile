@@ -287,7 +287,7 @@ export const experience = [
     role: "Founder",
     company: "Kajco Finance Ltd",
     place: "London, UK",
-    period: "Mar 2025 – Present",
+    period: "MAR 2025 - PRESENT",
     current: true,
     bullets: [
       "Founding Kajco Finance Ltd to develop inclusive digital lending and credit infrastructure for emerging markets.",
@@ -299,7 +299,7 @@ export const experience = [
     role: "Data Analyst Trainee",
     company: "IT Skills",
     place: "London, UK",
-    period: "May 2025 – Aug 2026",
+    period: "MAY 2025 - AUG 2026",
     current: true,
     bullets: [
       "Led automation of data preparation workflows, cutting manual effort while improving accuracy of business insights and reporting.",
@@ -313,7 +313,7 @@ export const experience = [
     role: "Managing Consultant",
     company: "Freetown Consultancy & Services Ltd",
     place: "Lagos, Nigeria",
-    period: "Aug 2024 – Jun 2026",
+    period: "AUG 2024 - JUN 2026",
     bullets: [
       "Led operational improvement initiatives for SMEs, enhancing workforce performance and retention.",
       "Developed business strategies and implemented process improvements to increase operational efficiency.",
@@ -324,7 +324,7 @@ export const experience = [
     role: "Business Strategy Manager",
     company: "Freetown Consultancy & Services",
     place: "Lagos, Nigeria",
-    period: "Jan 2019 – Aug 2024",
+    period: "JAN 2019 - AUG 2024",
     bullets: [
       "Managed business operations and remote teams to improve productivity and service delivery.",
       "Implemented process improvements and performance reporting to enhance operational visibility.",
@@ -335,7 +335,7 @@ export const experience = [
     role: "Project Manager",
     company: "Rebou Albadya Project Management Services",
     place: "Dubai, UAE",
-    period: "Mar 2022 – Jul 2023",
+    period: "MAR 2022 - JUL 2023",
     bullets: [
       "Managed project schedules, resources and stakeholder communications to ensure timely delivery.",
       "Introduced operational reporting to improve project tracking and compliance.",
@@ -346,7 +346,7 @@ export const experience = [
     role: "Office Manager",
     company: "Hamzat Ismail Buildings Maintenance LLC",
     place: "Ajman, UAE",
-    period: "Mar 2020 – Mar 2022",
+    period: "MAR 2020 - MAR 2022",
     bullets: [
       "Implemented digital workflows that increased office productivity by approximately 25%.",
       "Managed vendor contracts and procurement, reducing operating costs by approximately 15%.",
@@ -357,7 +357,7 @@ export const experience = [
     role: "Administrator (NYSC)",
     company: "Umuahia South LGA Secondary Schools",
     place: "Nigeria",
-    period: "Mar 2019 – Mar 2020",
+    period: "MAR 2019 - MAR 2020",
     bullets: [
       "Coordinated administrative activities and maintained accurate institutional records.",
       "Digitized reporting processes, improving accuracy and turnaround time.",
@@ -368,7 +368,7 @@ export const experience = [
     role: "Account Manager (Intern)",
     company: "First Pension Custodian Nigeria Ltd",
     place: "Lagos, Nigeria",
-    period: "Feb 2014 – Sep 2014",
+    period: "FEB 2014 - SEP 2014",
     bullets: [
       "Processed pension account transactions and reconciliations in line with regulatory requirements.",
       "Prepared financial and operational reports to support accurate record-keeping.",
