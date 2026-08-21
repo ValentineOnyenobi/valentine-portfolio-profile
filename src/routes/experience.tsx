@@ -32,7 +32,7 @@ function Experience() {
           Experience &amp; education
         </h1>
         <p className="mt-5 max-w-2xl text-muted-foreground">
-          Consulting, project delivery and fintech across the UK, UAE and Nigeria — the operational
+          Consulting, project delivery and fintech across the UK, UAE and Nigeria - the operational
           grounding behind the analytics work.
         </p>
       </Reveal>

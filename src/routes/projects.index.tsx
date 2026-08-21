@@ -117,7 +117,7 @@ function ProjectsIndex() {
             A dashboard you can actually click
           </h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
-            Built here in the browser on a sample retail dataset — filter by region, channel and
+            Built here in the browser on a sample retail dataset - filter by region, channel and
             period and every KPI and chart recalculates live. Same thinking I apply in Power BI and
             Tableau.
           </p>
